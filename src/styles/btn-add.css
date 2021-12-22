@@ -1,0 +1,24 @@
+.btn-add{
+    grid-column: 3/4;
+    align-self : center;
+    font-size:2em;
+    width:2em;
+    color:white;
+    background:lawngreen;
+    border: 2.5px solid white;
+    cursor:pointer;
+    transition:all 0.2s;
+    border-radius:20px;
+}
+
+.btn-add:hover{
+    color:lawngreen;
+    border:2.5px solid lawngreen;
+    background:white;
+}
+
+.btn-add:active{
+    color:lawngreen;
+    border:2.5px solid lawngreen;
+    background:black;
+}

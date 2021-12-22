@@ -1,0 +1,23 @@
+.btn-delete{
+	align-self:center;
+	font-size:2em;
+	width:2em;
+	background:#0050fc;
+	border:1px solid #fff;
+	color:#fff;
+	border-radius:20px;
+	transition:all 0.2s;
+	cursor:pointer;
+}
+
+.btn-delete:hover{
+	background:#fff;
+	color:#005fc0;
+	border: 1px solid #0050fc;
+}
+
+.btn-delete:active{
+	background:#000;
+	color:#0050fc;
+	border:1px solid #0050fc;
+}

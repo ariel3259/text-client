@@ -1,0 +1,23 @@
+.btn-close{
+	grid-column:3/4;
+	align-self:center;
+	width:2em;
+	font-size:2em;
+	background:#fc0c00;
+	color:#fff;
+	border:1px solid #fff;
+	border-radius:20px;
+	cursor:pointer;
+	transition:all 0.2s;
+}
+.btn-close:hover{
+	background:#fff;
+	color:#fc0c00;
+	border:1px solid #fc0c00;
+}
+
+.btn-close:active{
+	background:#000;
+	color:#fc0c00;
+	border:1px solid #fc0c00;
+}

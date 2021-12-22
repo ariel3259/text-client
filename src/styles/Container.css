@@ -1,0 +1,12 @@
+.container{
+    grid-area:3/3/9/8;
+    display: grid;
+    padding : 25px 50px;
+    grid-template: repeat(10, 1fr) / repeat(10, 1fr);   
+    background: rgba(0,136,255,0.80);
+}
+@media screen and (max-width:414px){
+    .container{
+        grid-area:3/2/10/10 !important;
+    }
+}

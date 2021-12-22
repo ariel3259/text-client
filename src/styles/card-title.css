@@ -1,0 +1,25 @@
+.card-text{
+    padding:2.5em 2.5em;
+    height: 10em;
+    border: 1px solid #fff;
+    cursor:pointer;
+    box-shadow: 0 0 5px 0 solid #ccc;
+    margin:2.5em 2.5em;
+    background: rgba(0,0,0,0.85);
+    color:#fff;
+    border-radius:10px;
+}
+
+.card-text:active{
+    background:#fff;
+    color:#000;
+    border:1px solid #000;
+}
+
+@media screen and (max-width:414px){
+    .card-text{
+        padding:1.25em 1.25em;
+        height:5em; 
+        margin: 1.25em 1.25em;                                                                                             
+    }
+}

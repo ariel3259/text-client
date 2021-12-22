@@ -1,0 +1,29 @@
+header{
+    grid-column: 1/11;
+    grid-row: 1/2;
+    background: lightskyblue;
+    color:white;
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    padding: 25px 50px;
+    box-shadow: 0 0 7px 0 #000;
+}
+
+header h1{
+    grid-column:1/2;
+}
+
+header span{
+font-size:1.5em;
+align-self:end;
+justify-self:end;
+}
+
+@media screen and (max-width:414px){
+    header{
+        padding:10px 10px;
+    }
+    header h1{
+        grid-column: 1/3;
+    }
+}

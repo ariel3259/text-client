@@ -1,0 +1,95 @@
+
+.container-title{
+
+    grid-area:1/4/2/8;
+    text-align: center;
+    padding: 25px;
+    color:#fff;
+}
+
+
+
+#email_main{
+    grid-area:4/4/5/8;
+    font-size: 1.5em;
+    background: transparent;
+    border:none;
+    color:#fff;
+    border-bottom: 2.5px solid #fff;
+    outline:0px ;
+    transition:all 0.2s;
+}
+#email_main::placeholder{
+    color:#fff;
+}
+#email_main:valid {
+    color:lawngreen;
+    border-bottom:2.5px solid lawngreen;
+}
+#email_main:invalid{
+    color:salmon;
+    border-bottom: 2.5px solid salmon;
+}
+
+#password_main{
+    outline:0px;
+    grid-area:6/4/7/8;
+    font-size:1.5em;
+    background:transparent;
+    color:#fff;
+    border:none;
+    border-bottom:2.5px solid lawngreen;
+  
+}
+#password_main::placeholder{
+    color:#fff;
+}
+
+
+.sign-in{
+    grid-area:9/5/10/7; 
+    align-self: center;
+    height:3em;
+    background:lightskyblue;
+    border:2.5px solid lightskyblue;
+    box-shadow: 0 0 5px 0 #aaa;
+    font-size: 1em;
+    border-radius:50px;
+    cursor: pointer;
+    margin-bottom:10px;
+    transition: all .2s;
+}
+
+.sign-in:active{
+    background:#000;
+    color:lightskyblue;
+    border: 2.5px solid lightskyblue;
+}   
+
+.register{
+    font-size:1em;
+    grid-area:10/5/11/7;
+    align-self: center;
+    height:3em;
+    border:2.5px solid lightskyblue;
+    border-radius:50px;
+    box-shadow: 0 0 5px 0 #aaa;
+    cursor: pointer;
+    background:lightskyblue;
+    transition: all 0.2s;
+}
+
+.register:active{
+    background:#000;
+    border:2.5px solid lightskyblue;
+    color:lightskyblue;
+}
+
+@media screen and (max-width:414px) {
+    .register, .sign-in{
+        grid-column:3/9;
+    }
+    .container-title,#email_main, #password_main{
+        grid-column : 2/10;
+    }
+}
