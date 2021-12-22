@@ -38,5 +38,5 @@ code {
   width: 100vw;
   display:grid;
   grid-template: repeat(10, 1fr) / repeat(10, 1fr);
-  background-image: url(../th.jpg);
+  background-image: url(../img/theme.jpg);
 }
